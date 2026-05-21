@@ -1,0 +1,5 @@
+notes.txt rw-r--r--
+public.txt rw-rw-rw-
+script.sh rwxr-xr-x
+secret.key rw-------
+open_file.txt rwxrwxrwx
