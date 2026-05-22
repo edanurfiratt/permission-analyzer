@@ -40,8 +40,8 @@ def calculate_total_risk(total, file_info):
 
 
 def print_report(all_files, risky_files, total_risk):
-    print("DOSYA IZIN ANALIZ RAPORU")
-    print("=" * 30)
+    print("DOSYA IZIN KONTROLU")
+    print("-" * 30)
 
     for file_info in all_files:
         print("Dosya:", file_info["filename"])
@@ -53,10 +53,12 @@ def print_report(all_files, risky_files, total_risk):
 
             for risk in file_info["risks"]:
                 print("-", risk)
+
         else:
             print("Durum: Guvenli")
 
-        print("-" * 30)
+        print()
+        print()
 
     print("Toplam dosya sayisi:", len(all_files))
     print("Riskli dosya sayisi:", len(risky_files))
