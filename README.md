@@ -1,4 +1,5 @@
 Ders: Python Programlamaya Giriş
+
 Öğrenci: Edanur Fırat
 Numara: 2220656031
 Ödev No: 99
